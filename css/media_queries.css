@@ -1,0 +1,78 @@
+@media (min-width:1024px){
+  footer div:nth-child(1) {
+    width: 43%;
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+  footer div:nth-child(2) {
+    width: 52%;
+    padding-left: 7%;
+  }
+  footer div ul li {
+    width: 48%;
+    margin-right: 10px;
+  }
+  footer div:nth-child(1) > a {
+    width: 99%;
+  }
+}
+@media (min-width:768px) and (max-width:1024px){
+  nav ul{
+    width: 70%;
+  }
+  footer div:nth-child(1) {
+    width: 40%;
+  }
+  footer div:nth-child(1) > a{
+    width: 200px;
+    display: block;
+    margin-bottom: 1%;
+  }
+  footer div:nth-child(2) {
+    width: 60%;
+    margin-top: 6%;
+  }
+  footer div ul li {
+    width: 100%;
+  }
+}
+@media  (max-width:767px){
+  nav ul{
+    display: none;
+  }
+  h2{
+    font-size: 36px;
+  }
+  .project{
+    width: 100%;
+    flex-flow: column-reverse;
+    margin-top: 1%;
+  }
+  footer div:nth-child(1) {
+    width: 100%;
+  }
+  footer div:nth-child(1) > a{
+    width: 200px;
+    display: block;
+    margin-bottom: 1%;
+  }
+  footer div:nth-child(2) {
+    width: 100%;
+  }
+  footer div ul li {
+    width: 100%;
+  }
+}
+@media (min-width:1025px) and (max-width:1131px) {
+  footer div:nth-child(1) > a {
+    width: 50%;
+    display: block;
+    margin-bottom: 1%;
+  }
+  footer div:nth-child(2) {
+    width: 52%;
+    padding-left: 0%;
+  }
+  footer div:nth-child(1) {
+    padding-top: 5%;
+}

@@ -1,0 +1,61 @@
+@import "header.css";
+@import "footer.css";
+@import "project.css";
+@import "resume.css";
+@import "media_queries.css";
+
+a{
+  text-decoration: none;
+}
+a h4 {
+  font-size: 24px;
+  color: black;
+  font-weight: lighter;
+}
+body{
+  max-width: 1425;
+  width: 100%;
+  margin: 0 auto;
+}
+h2{
+  font-size: 64px;
+}
+h3{
+  font-size: 24px;
+  color: #BB6BD9;
+  font-weight: normal;
+}
+p{
+  font-size: 24px;
+  font-weight: normal;
+}
+p+p{
+  margin-top: 4%;
+}
+.about{
+  margin-top: 35%;
+  margin-bottom: 5%;
+}
+.aboutText{
+  margin-top: 4%;
+  float: right;
+}
+.projects{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.projects a:hover{
+  text-decoration: none;
+}
+.project{
+  display: flex;
+  flex-flow: column;
+  width: 33.3333%;
+  text-align: center;
+  background-color: #E0E0E0;
+}
+.project img{
+  width: 100%;
+}

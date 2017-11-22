@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ng-app='portfolio'>
+<head>
+  <meta charset="utf-8">
+  <title>Ashley Laing</title>
+  <script src="https://use.fontawesome.com/caa8e53472.js"></script>
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-controller="featuredCtrl" ng-cloak>
+  <header>
+    <nav>
+      <h1><a href="index.html">Ashley Laing</a></h1>
+      <ul>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://github.com/ashleymlaing" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/StrWomanTecGeek" target="_blank"><i class="fa fa-twitter-square fa-lg round" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/alaing1989" target="_blank"><i class="fa fa-facebook-square fa-lg round" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ashley-laing/" target="_blank"><i class="fa fa-linkedin-square fa-lg round" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <footer>
+    <section>
+      <div class="col-md-6">
+        <h2>Ashley Laing</h2>
+        <a href="resume/resume.pdf" class="" target="_blank">See My Resume</a>
+        <a href="contact.html" class="">Get In Contact</a>
+      </div>
+      <div id="portfolio" class="col-md-6">
+        <h2>Portfolio</h2>
+        <ul>
+          <li ng-repeat="project in projects"><a href="{{project.link}}">{{project.projectName}}</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <ul>
+        <li><a href="https://github.com/ashleymlaing" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/StrWomanTecGeek" target="_blank"><i class="fa fa-twitter-square fa-lg round" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/alaing1989" target="_blank"><i class="fa fa-facebook-square fa-lg round" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ashley-laing/" target="_blank"><i class="fa fa-linkedin-square fa-lg round" aria-hidden="true"></i></a></li>
+      </ul>
+    </section>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.min.js"></script>
+
+  <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/parallax.js" charset="utf-8"></script>
+  <script src="js/parallax.min.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>

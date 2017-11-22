@@ -1,0 +1,58 @@
+.resumeSection{
+  width: 50%;
+  height: 900px;
+  overflow-y: scroll;
+  float: left;
+}
+.resumeSection:first-of-type{
+  overflow-y: hidden;
+}
+.resumeSection:first-of-type > h2, .resumeSection:first-of-type > h3{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.resumeSection:first-of-type > h2 {
+  font-size: 40px;
+}
+
+.resumeSection:first-of-type > h3{
+  margin-bottom: 30px;
+}
+
+.resumeSection h2{
+  font-size: 32px;
+  display: inline;
+  margin-right: 60px;
+}
+.resumeSection h2:nth-of-type(2){
+  display: block;
+}
+.resumeSection h4{
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resumeSection ul{
+  margin-left: 0;
+  padding-left: 25px;
+  margin-bottom: 30px;
+}
+
+.resumeSection ul li{
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 20px;
+}
+
+.resumeSection ul + a {
+  display: block;
+}
+.resumeSection h3{
+  display: inline;
+}
+header.resume + section {
+  background-image: url("../img/ashley.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

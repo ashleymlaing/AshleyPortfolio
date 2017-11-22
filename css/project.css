@@ -1,0 +1,50 @@
+.infoBox{
+  width: 80%;
+  background-color: #ffffff;
+  margin: -5% auto 0;
+  z-index: 2;
+  border: 1px solid grey;
+  box-shadow: 3px 6px grey;
+  padding: 4% 15%;
+}
+
+.infoBox h2 {
+  font-size: 40px;
+}
+.infoBox h3 {
+  font-size: 40px;
+}
+.projectDetails {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4% auto;
+  width: 80%;
+}
+.projectDetails:nth-child(odd){
+  flex-flow: row wrap;
+}
+
+.projectDetails:nth-child(odd) div {
+  padding-left: 5%;
+}
+
+.projectDetails div {
+  width: 60%;
+  padding-left: 0;
+  padding-right: 5%;
+}
+.projectDetails img{
+  width: 40%;
+  height: 350px;
+}
+
+.projectDetails h4{
+  font-size: 32px;
+  margin-bottom: 5%;
+}
+
+.projectDetails p {
+  font-size: 18px;
+}

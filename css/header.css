@@ -1,0 +1,40 @@
+header.homeHeader{
+  margin-bottom: 5%;
+}
+header.projectHeader{
+  background-color: #BB6BD9;
+}
+header img{
+  width: 100%;
+  height: auto;
+}
+video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+h1 a{
+  color: black;
+  font-weight: lighter;
+}
+nav{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items:center;
+  list-style: none;
+  width: 60%;
+}
+nav ul li a{
+  font-size: 24px;
+  color: black;
+  font-weight: lighter;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html ng-app='portfolio'>
+<head>
+  <meta charset="utf-8">
+  <title>Ashley Laing</title>
+  <script src="https://use.fontawesome.com/caa8e53472.js"></script>
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-controller="featuredCtrl" ng-cloak>
+  <header class="resume">
+    <nav>
+      <h1><a href="index.html">Ashley Laing</a></h1>
+      <ul>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://github.com/ashleymlaing" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/StrWomanTecGeek" target="_blank"><i class="fa fa-twitter-square fa-lg round" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/alaing1989" target="_blank"><i class="fa fa-facebook-square fa-lg round" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ashley-laing/" target="_blank"><i class="fa fa-linkedin-square fa-lg round" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="resumeSection">
+    <h2>Ashley Laing</h2>
+    <h3>front end developer</h3>
+    <p>I am a front-end developer with a passion for JavaScript, I have interned with Microsoft and constant learning is the main driver for my personal goals.</p>
+
+    <p>Check out my work on <a href="#">GitHub</a> or connect with me on <a href="#">Linkedin</a></p>
+  </section>
+  <section class="resumeSection">
+    <h2>Microsoft</h2> <h3>Software Intern</h3>
+    <h4>February 2017 - May 2017</h4>
+    <ul>
+      <li>Used C# and XAML to program a kegerator lock with a team of six, using only a raspberry pi, a solenoid valve, and a RFID badge reader</li>
+      <li>Designed five application screens and with an understanding of UX design</li>
+      <li>Researched hardware and food sanitation guidelines to ensure consumer safety</li>
+      <li>Constructed the wiring to connect hardware and application</li>
+    </ul>
+    <a href="#">Read More</a>
+    <h2>Howard Development &amp; Consulting</h2> <h3>Contract Developer</h3>
+    <h4>November 2016 - Present</h4>
+    <ul>
+      <li>Lead backend edits for Wordpress themes including plugins, migrations, and updates</li>
+      <li>Respond to client tickets with Zendesk ensuring 15 minute response time</li>
+    </ul>
+    <a href="#">Read More</a>
+    <h2>Resilient Coders</h2> <h3>Developer In Residence</h3>
+    <h4>July 2017 - September 2017</h4>
+    <ul>
+      <li>Teach Bootcamp students Web Development skills HTML, CSS, JavaScript/jQuery</li>
+      <li>Coach students and offering career support</li>
+    </ul>
+    <a href="#">Read More</a>
+    <h2>Resilient Lab</h2> <h3>Technical Fellow</h3>
+    <h4>September 2016 - February 2017</h4>
+    <ul>
+      <li>Created websites and web applications for clients in JavaScript, Bootstrap, PHP, and Wordpress</li>
+      <li>Selected for competitive Lab role based on exceptional performance during Bootcamp</li>
+      <li>Functioned as part of a term in execution and delivery of client work</li>
+    </ul>
+    <a href="#">Read More</a>
+  </section>
+  <footer>
+    <section>
+      <div class="col-md-6">
+        <h2>Ashley Laing</h2>
+        <a href="resume/resume.pdf" class="" target="_blank">See My Resume</a>
+        <a href="contact.html" class="">Get In Contact</a>
+      </div>
+      <div id="portfolio" class="col-md-6">
+        <h2>Portfolio</h2>
+        <ul>
+          <li ng-repeat="project in projects"><a href="{{project.link}}">{{project.projectName}}</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <ul>
+        <li><a href="https://github.com/ashleymlaing" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/StrWomanTecGeek" target="_blank"><i class="fa fa-twitter-square fa-lg round" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/alaing1989" target="_blank"><i class="fa fa-facebook-square fa-lg round" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ashley-laing/" target="_blank"><i class="fa fa-linkedin-square fa-lg round" aria-hidden="true"></i></a></li>
+      </ul>
+    </section>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.min.js"></script>
+
+  <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/parallax.js" charset="utf-8"></script>
+  <script src="js/parallax.min.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
