@@ -1,24 +1,29 @@
-<!DOCTYPE html>
-<html ng-app='portfolio'>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app='portfolio'>
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Ashley Laing</title>
   <script src="https://use.fontawesome.com/caa8e53472.js"></script>
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/view.css" media="all">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/main.css">
+
+  <script type="text/javascript" src="js/view.js"></script>
+
 </head>
 <body ng-controller="featuredCtrl" ng-cloak>
   <header>
     <nav>
       <h1><a href="index.html">Ashley Laing</a></h1>
       <ul>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="index.html">Portfolio</a></li>
         <li><a href="resume.html">Resume</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#index.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="https://github.com/ashleymlaing" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
         <li><a href="https://twitter.com/StrWomanTecGeek" target="_blank"><i class="fa fa-twitter-square fa-lg round" aria-hidden="true"></i></a></li>
@@ -27,6 +32,59 @@
       </ul>
     </nav>
   </header>
+  <main id="main_body" >
+
+    <img id="top" src="img/top.png" alt="">
+    <div id="form_container">
+
+      <h1 class="hiddenHeading"><a>Contact Form</a></h1>
+      <form id="form_59912" class="appnitro" enctype="multipart/form-data" method="post" action="">
+        <div class="form_description">
+          <h2>Contact Form</h2>
+          <p>Contact me here so that I can email you back as soon as possible.</p>
+        </div>
+        <ul >
+
+          <li id="li_1" >
+            <label class="description" for="element_1">Name </label>
+            <span>
+              <input id="element_1_1" name= "element_1_1" class="element text" maxlength="255" size="8" value=""/>
+              <label>First</label>
+            </span>
+            <span>
+              <input id="element_1_2" name= "element_1_2" class="element text" maxlength="255" size="14" value=""/>
+              <label>Last</label>
+            </span>
+          </li>		<li id="li_2" >
+            <label class="description" for="element_2">Email </label>
+            <div>
+              <input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255" value=""/>
+            </div>
+          </li>		<li class="section_break">
+            <h3>Section Break</h3>
+            <p></p>
+          </li>		<li id="li_4" >
+            <label class="description" for="element_4">Upload a File </label>
+            <div>
+              <input id="element_4" name="element_4" class="element file" type="file"/>
+            </div>
+          </li>		<li id="li_5" >
+            <label class="description" for="element_5">Paragraph </label>
+            <div>
+              <textarea id="element_5" name="element_5" class="element textarea medium"></textarea>
+            </div>
+          </li>
+
+          <li class="buttons">
+            <input type="hidden" name="form_id" value="59912" />
+
+            <input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+          </li>
+        </ul>
+      </form>
+    </div>
+    <img id="bottom" src="img/bottom.png" alt="">
+  </main>
   <footer>
     <section>
       <div class="col-md-6">
