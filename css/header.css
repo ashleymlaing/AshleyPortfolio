@@ -12,8 +12,7 @@ video{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  z-index: -1;
+  z-index: 0;
 }
 h1 a{
   color: black;
@@ -24,6 +23,7 @@ nav{
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
+  z-index: 20;
 }
 nav ul{
   display: flex;
@@ -37,4 +37,10 @@ nav ul li a{
   font-size: 24px;
   color: black;
   font-weight: lighter;
+}
+.homeNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
