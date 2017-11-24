@@ -1,0 +1,15 @@
+.gallery > section{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-bottom: 5%;
+}
+
+.galleryImages {
+  width: 33.33%;
+  padding: 3%;
+  /*height: 400px;*/
+  /*margin: 20px;*/
+}

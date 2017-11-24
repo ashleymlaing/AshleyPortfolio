@@ -214,9 +214,56 @@ $("button.resilientLab").on("click",function(){
   }
 });
 
-let project_cw = [];
-let project_lg = [];
-let project_rvms = [];
-let project_quilt = [];
-let project_weather = [];
-let project_todo = [];
+let project_cw = ["img/project_cw/ashley_cw_mac.png",
+                  "img/project_cw/cw_about_h.png",
+                  "img/project_cw/cw_about_no_header.png",
+                  "img/project_cw/cw_about.png",
+                  "img/project_cw/cw_about.png",
+                  "img/project_cw/cw_featured.png",
+                  "img/project_cw/cw_home.png",
+                  "img/project_cw/cw_pp.png",
+                  "img/project_cw/cw_sci.png",
+                  "img/project_cw/cw1.png",
+                  "img/project_cw/cw2.png",
+                  "img/project_cw/cw3.png"];
+let project_lg = ["img/project_lg/ashley_lg_mac.png",
+                  "img/project_lg/lg1.png",
+                  "img/project_lg/lg2.png",
+                  "img/project_lg/lg3.png"];
+let project_rvms = ["img/project_rvms/ashley_rvms_mac_mock.png",
+                    "img/project_rvms/rvms_home.png",
+                    "img/project_rvms/rvms-13.png",
+                    "img/project_rvms/rvms-14.png",
+                    "img/project_rvms/rvms-15.png",
+                    "img/project_rvms/rvms-17.png"];
+let project_quilt = ["img/project_quilt/quilt-in-page1.png",
+                      "img/project_quilt/quilt-in-page2.png",
+                      "img/project_quilt/quilt-in-page3.png",
+                      "img/project_quilt/quilt-mac.png",
+                      "img/project_quilt/quilt-tablet-mock.png"];
+
+let sectionHeadingText = null;
+
+function nameOfSection(nameOfArray){
+    if(nameOfArray.length == 12){
+      sectionHeadingText = "Carolyn Whelan";
+    }else if (nameOfArray.length == 6) {
+      sectionHeadingText = "Roslindale Village Main Street";
+    }else if (nameOfArray.length == 5) {
+      sectionHeadingText = "Quilt";
+    }else if (nameOfArray.length == 4) {
+      sectionHeadingText = "Level Ground MMA";
+    }
+    return sectionHeadingText;
+}
+
+let projectArray = [project_cw, project_lg, project_rvms, project_quilt];
+
+projectArray.forEach(function(nameOfArray){
+  nameOfSection(nameOfArray);
+  $('section.gallery').append("<section><h3>"+ sectionHeadingText +"</h3>");
+  nameOfArray.forEach(function(image){
+    $('section.gallery').append("<img src='"+ image +"' class='galleryImages'>")
+  });
+  $('section.gallery').append("</section><hr>");
+});
