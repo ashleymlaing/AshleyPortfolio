@@ -215,10 +215,7 @@ $("button.resilientLab").on("click",function(){
 });
 
 let project_cw = ["img/project_cw/ashley_cw_mac.png",
-                  "img/project_cw/cw_about_h.png",
                   "img/project_cw/cw_about_no_header.png",
-                  "img/project_cw/cw_about.png",
-                  "img/project_cw/cw_about.png",
                   "img/project_cw/cw_featured.png",
                   "img/project_cw/cw_home.png",
                   "img/project_cw/cw_pp.png",
@@ -243,16 +240,21 @@ let project_quilt = ["img/project_quilt/quilt-in-page1.png",
                       "img/project_quilt/quilt-tablet-mock.png"];
 
 let sectionHeadingText = null;
+let sectionClass;
 
 function nameOfSection(nameOfArray){
-    if(nameOfArray.length == 12){
+    if(nameOfArray.length == 9){
       sectionHeadingText = "Carolyn Whelan";
+      sectionClass = "project_cw";
     }else if (nameOfArray.length == 6) {
       sectionHeadingText = "Roslindale Village Main Street";
+      sectionClass = "project_rvms";
     }else if (nameOfArray.length == 5) {
       sectionHeadingText = "Quilt";
+      sectionClass = "project_quilt"
     }else if (nameOfArray.length == 4) {
       sectionHeadingText = "Level Ground MMA";
+      sectionClass = "project_lg"
     }
     return sectionHeadingText;
 }
@@ -261,9 +263,9 @@ let projectArray = [project_cw, project_lg, project_rvms, project_quilt];
 
 projectArray.forEach(function(nameOfArray){
   nameOfSection(nameOfArray);
-  $('section.gallery').append("<section><h3>"+ sectionHeadingText +"</h3>");
+  $('section.gallery').append("<section class='"+ sectionClass +"'<h3>"+ sectionHeadingText +"</h3>");
   nameOfArray.forEach(function(image){
-    $('section.gallery').append("<img src='"+ image +"' class='galleryImages'>")
+    $('section.gallery > section').append("<img src='"+ image +"' class='galleryImages'>")
   });
-  $('section.gallery').append("</section><hr>");
+  $('section.gallery').append("</section>");
 });

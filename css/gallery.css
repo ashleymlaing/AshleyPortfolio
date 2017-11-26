@@ -1,15 +1,40 @@
+section.gallery{
+  background-color: #E0E0E0;
+}
+
 .gallery > section{
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: space-between;
+  margin: 0 auto;
   margin-bottom: 5%;
+
+}
+
+.gallery > section > section{
+  /*background-color: #E0E0E0;*/
+}
+
+.gallery h3{
+  width: 100%;
+  font-size: 32px;
+  padding-top: 4%;
+  margin-bottom: -5%;
+  display: block;
+  text-align: center;
+  background-color: #E0E0E0;
 }
 
 .galleryImages {
   width: 33.33%;
   padding: 3%;
+  /*background-color: #E0E0E0;*/
   /*height: 400px;*/
   /*margin: 20px;*/
+}
+
+.project_lg > img {
+  width: 25%;
 }
