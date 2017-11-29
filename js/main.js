@@ -245,16 +245,16 @@ let sectionClass;
 function nameOfSection(nameOfArray){
     if(nameOfArray.length == 9){
       sectionHeadingText = "Carolyn Whelan";
-      sectionClass = "project_cw";
+      imageClass = "project_cw";
     }else if (nameOfArray.length == 6) {
       sectionHeadingText = "Roslindale Village Main Street";
-      sectionClass = "project_rvms";
+      imageClass = "project_rvms";
     }else if (nameOfArray.length == 5) {
       sectionHeadingText = "Quilt";
-      sectionClass = "project_quilt"
+      imageClass = "project_quilt"
     }else if (nameOfArray.length == 4) {
       sectionHeadingText = "Level Ground MMA";
-      sectionClass = "project_lg"
+      imageClass = "project_lg"
     }
     return sectionHeadingText;
 }
@@ -263,9 +263,9 @@ let projectArray = [project_cw, project_lg, project_rvms, project_quilt];
 
 projectArray.forEach(function(nameOfArray){
   nameOfSection(nameOfArray);
-  $('section.gallery').append("<section class='"+ sectionClass +"'<h3>"+ sectionHeadingText +"</h3>");
+  $('section.gallery').append("<h3>"+ sectionHeadingText +"</h3>");
   nameOfArray.forEach(function(image){
-    $('section.gallery > section').append("<img src='"+ image +"' class='galleryImages'>")
+    $('section.gallery').append("<img src='"+ image +"' class='galleryImages'"+ imageClass +">")
   });
   $('section.gallery').append("</section>");
 });
