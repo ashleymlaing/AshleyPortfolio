@@ -8,7 +8,7 @@ app.controller('featuredCtrl', function($scope) {
             link: 'carolyn_whelan.html',
             heading:"Carolyn Whelan Portfolio Site",
             type:"Website",
-            paragraph:"Carolyn Whelan is a writer and I built this site to broadcast her articles. I developed this static site and added Angular 1.0. We separated her articles into catergories, and made them easy to find."
+            paragraph:"A portfolio for a writer named Carolyn Whelan to showcase her work in an organized system."
             // "This is a website I built during my time at Resilient Lab. I used HTML, CSS, JavaScript, and Angular 1.0."
         },
         {
@@ -18,7 +18,7 @@ app.controller('featuredCtrl', function($scope) {
             link: 'quilt.html',
             heading:"Quilt",
             type:"Web Application",
-            paragraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            paragraph:"A ruby o rails application that needed to be adjusted for desktop size."
         },
         {
             projectName: 'Roslindale Village Main Street',
@@ -27,7 +27,7 @@ app.controller('featuredCtrl', function($scope) {
             link: 'rvms.html',
             heading:"Roslindale Village Main Street",
             type:"WordPress Theme",
-            paragraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            paragraph:"A Wordpress theme created from scratch for a Resilient Lab client."
         },
         // {
         //     projectName: 'To Do List',
