@@ -45,7 +45,7 @@ app.controller('featuredCtrl', function($scope) {
             link: 'lg.html',
             heading:"Level Ground MMA",
             type:"Jekyll Theme",
-            paragraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            paragraph:"A Jekyll Theme project that I built and created static pages and repeating areas became post."
         },
         // {
         //     projectName: 'Boston Weather App',
@@ -60,37 +60,37 @@ app.controller('featuredCtrl', function($scope) {
         project:"Carolyn Whelan",
         image:"img/project_cw/cw_featured.png",
         sectionHeading:"What I Created",
-        writeUp:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        writeUp:"I created a protfolio site that categorized all the articles Carolyn Whelan had created and worked on. I created a static site and created 6 categories."
       },
       {
       project:"Carolyn Whelan",
       image:"img/project_cw/cw_pp.png",
       sectionHeading:"What I Used and Learned",
-      writeUp:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      writeUp:"I used HTML, CSS, and JavaScript. I added Angular 1.0 for all the articles to display in the right locations."
       },
       {
       project:"Carolyn Whelan",
       image:"img/project_cw/cw_sci.png",
       sectionHeading:"Why I Did It",
-      writeUp:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      writeUp:"This was a client site that I did while in Resilient Lab."
       },
       {
       project:"Roslindale Village",
       image:"img/project_rvms/rvms_home.png",
       sectionHeading:"What I Created",
-      writeUp:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      writeUp:"I created the html and css for the theme."
     },
     {
     project:"Roslindale Village",
     image:"img/project_rvms/rvms-13.png",
     sectionHeading:"What I Used and Learned",
-    writeUp:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    writeUp:"I used HTML, CSS, JavaScript. I then added PHP when it was transitioning from static to the wordpress theme."
     },
     {
     project:"Roslindale Village",
     image:"img/project_rvms/rvms-15.png",
     sectionHeading:"Why I Did It",
-    writeUp:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    writeUp:"I did this site as my first site coming from Resilient Coders BootCamp into the Resilient Lab."
     },
     {
     project:"Level Ground",
@@ -263,7 +263,7 @@ let projectArray = [project_cw, project_lg, project_rvms, project_quilt];
 
 projectArray.forEach(function(nameOfArray){
   nameOfSection(nameOfArray);
-  $('section.gallery').append("<h3>"+ sectionHeadingText +"</h3>");
+  $('section.gallery').append("<h3>"+ sectionHeadingText +"</h3><br />");
   nameOfArray.forEach(function(image){
     $('section.gallery').append("<img src='"+ image +"' class='galleryImages'"+ imageClass +">")
   });
