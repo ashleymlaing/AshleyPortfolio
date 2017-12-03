@@ -96,13 +96,13 @@ app.controller('featuredCtrl', function($scope) {
     project:"Level Ground",
     image:"img/project_lg/lg1.png",
     sectionHeading:"What I Created",
-    writeUp:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    writeUp:"I created the HTML files, and the CSS files. I added some JavaScript for some of the pages that pulled in post."
   },
   {
   project:"Level Ground",
   image:"img/project_lg/lg2.png",
   sectionHeading:"What I Used and Learned",
-  writeUp:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  writeUp:"I learned how to use Jekyll and use Forestry together to make static files a little dynamic. Also, I used git issues to track through the project and task that needed to get done."
   },
   {
   project:"Level Ground",
