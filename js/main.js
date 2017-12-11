@@ -269,3 +269,7 @@ projectArray.forEach(function(nameOfArray){
   });
   $('section.gallery').append("</section>");
 });
+
+var projectNames = ["Carolyn Whelan","Roslindale Village Main Street", "Quilt", "Level Ground MMA"];
+
+var projectLinks = ["carolyn_whelan.html","rvms.html","quilt.html","lg.html"];
