@@ -17,6 +17,7 @@ body{
   max-width: 1425;
   width: 100%;
   margin: 0 auto;
+  font-family: 'Abril Fatface', cursive;
 }
 h2{
   font-size: 64px;
@@ -49,10 +50,13 @@ p+p{
 }
 .projects a:hover{
   text-decoration: none;
+  background-color: #BB6BD9;
 }
 .project{
   display: flex;
   flex-flow: column;
+  justify-content: center;
+  align-items: center;
   /*width: 33.3333%;*/
   width: 25%;
   text-align: center;

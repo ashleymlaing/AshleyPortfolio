@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 </head>
 
-<body ng-controller="featuredCtrl" ng-cloak>
+<body ng-controller="featuredCtrl" ng-cloak class="slideInDown">
     <header class="homeHeader">
         <video width="100%" autoplay loop muted controls>
           <source src="video/Meet_Ashley.mp4" type="video/mp4">
@@ -27,7 +28,7 @@
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="https://github.com/ashleymlaing" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
                 <li><a href="https://twitter.com/StrWomanTecGeek" target="_blank"><i class="fa fa-twitter-square fa-lg round" aria-hidden="true"></i></a></li>
-                
+
                 <li><a href="https://www.linkedin.com/in/ashley-laing/" target="_blank"><i class="fa fa-linkedin-square fa-lg round" aria-hidden="true"></i></a></li>
             </ul>
         </nav>
@@ -45,9 +46,9 @@
         </div>
     </section>
     <section class="projects">
-        <div ng-repeat="project in projects" class="project">
-            <a href="{{project.link}}">
-                <img src="{{project.featuredImage}}" alt="">
+        <div ng-repeat="project in projects" ng-show="project.frontPage" class="project slideInLeft">
+            <a href="{{project.link}}" class="slideInLeft">
+                <img src="{{project.featuredImage}}" class="" alt="">
                 <h4>{{project.projectName}}</h4>
             </a>
         </div>

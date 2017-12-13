@@ -56,6 +56,13 @@
   align-items: flex-end;
 }
 
+.projectArrows a {
+  font-size: 30px;
+  color: black;
+}
+.projectArrows p {
+  font-size: 18px;
+}
 .projectArrows div{
   width: 50%;
   background-color: #D9D9D9;
@@ -71,7 +78,7 @@ padding-left: 2%;
 padding-right: 2%;
 }*/
 
-.projectArrows div:nth-child(even) > a{
+.projectArrows div:nth-child(even) > a, .projectArrows div:nth-child(even) > p{
   display: block;
   text-align: right;
 }
