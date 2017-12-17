@@ -114,13 +114,13 @@ app.controller('featuredCtrl', function($scope) {
   project:"Quilt",
   image:"img/project_quilt/quilt-in-page1.png",
   sectionHeading:"What I Created",
-  writeUp:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  writeUp:"For this client, I took the code they had with Ruby and BootStrap, and made it Desktop friendly style wise. I made some edits to the code in the stylesheet and in the page file."
   },
   {
   project:"Quilt",
   image:"img/project_quilt/quilt-in-page2.png",
   sectionHeading:"What I Used and Learned",
-  writeUp:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  writeUp:"This project taught me some Ruby on rails, BootStrap, and SASS/SCSS. I got to work more in the mobile first mindset with this project design as well."
   },
   {
   project:"Quilt",
