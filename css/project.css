@@ -95,11 +95,23 @@ ul.practice {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding-left: 0;
 }
 
 ul.practice>li {
     width: 25%;
     list-style-type: none;
+    padding-top: 2%
+}
+
+ul.practice>li:hover{
+  background-color: #BB6BD9;
+}
+
+ul.practice>li img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 ul.practice>li a {
