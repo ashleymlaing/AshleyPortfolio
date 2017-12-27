@@ -119,3 +119,8 @@ ul.practice>li a {
   display: block;
   font-size: 24px;
 }
+
+.funProject + h2 {
+  /* display: block; */
+  text-align: center;
+}
