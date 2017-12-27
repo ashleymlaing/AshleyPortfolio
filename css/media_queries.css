@@ -43,7 +43,7 @@
   h2{
     font-size: 36px;
   }
-  .project{
+  .project.slideInLeft{
     width: 100%;
     flex-flow: column-reverse;
     margin-top: 1%;
@@ -61,6 +61,19 @@
   }
   footer div ul li {
     width: 100%;
+  }
+  .projectDetails{
+    flex-flow: column;
+  }
+  .projectDetails img{
+    width: 100%;
+  }
+  .projectDetails div{
+    width: 100%;
+  }
+  .infoBox {
+    width: 100%;
+    padding: 0% 2%;
   }
 }
 @media (min-width:1025px) and (max-width:1131px) {

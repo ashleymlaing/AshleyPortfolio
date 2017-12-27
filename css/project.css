@@ -71,6 +71,7 @@
 
 .projectArrows div {
     width: 50%;
+    height: 250px;
     background-color: #D9D9D9;
     padding: 10% 2%;
 }
