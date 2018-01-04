@@ -18,7 +18,7 @@ app.controller('featuredCtrl', function($scope) {
             link: 'quilt.html',
             heading:"Quilt",
             type:"Web Application",
-            paragraph:"A ruby o rails application that needed to be adjusted for desktop size."
+            paragraph:"A Ruby on Rails application that needed to be adjusted for desktop size."
         },
         {
             projectName: 'Roslindale Village Main Street',
@@ -27,7 +27,7 @@ app.controller('featuredCtrl', function($scope) {
             link: 'rvms.html',
             heading:"Roslindale Village Main Street",
             type:"WordPress Theme",
-            paragraph:"A Wordpress theme created from scratch for a Resilient Lab client."
+            paragraph:"A Wordpress Theme created from scratch for a Resilient Lab client."
         },
         // {
         //     projectName: 'To Do List',
