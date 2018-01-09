@@ -18,7 +18,11 @@ app.controller('featuredCtrl', function($scope) {
             link: 'quilt.html',
             heading:"Quilt",
             type:"Web Application",
+<<<<<<< HEAD
             paragraph:"A Ruby on Rails Application that needed to be adjusted for desktop size."
+=======
+            paragraph:"A Ruby on Rails application that needed to be adjusted for desktop size."
+>>>>>>> c8adaf9cbfcde26235f1a9291ab01b966f5546c5
         },
         {
             projectName: 'Roslindale Village Main Street',
