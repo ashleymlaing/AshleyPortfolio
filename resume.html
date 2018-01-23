@@ -1,110 +1,119 @@
 <!DOCTYPE html>
 <html ng-app='portfolio'>
+
 <head>
-  <meta charset="utf-8">
-  <title>Ashley Laing</title>
-  <script src="https://use.fontawesome.com/caa8e53472.js"></script>
-  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Ashley Laing</title>
+    <script src="https://use.fontawesome.com/caa8e53472.js"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 </head>
+
 <body ng-controller="featuredCtrl" ng-cloak class="slideInDown">
-  <header class="resume">
-    <nav>
-      <h1><a href="index.html">Ashley Laing</a></h1>
-      <ul>
-        <li><a href="index.html">Portfolio</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="index.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="https://github.com/ashleymlaing" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-        <li><a href="https://twitter.com/StrWomanTecGeek" target="_blank"><i class="fa fa-twitter-square fa-lg round" aria-hidden="true"></i></a></li>
+    <header class="resume">
+        <nav>
+            <h1><a href="index.html">Ashley Laing</a></h1>
+            <ul>
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://github.com/ashleymlaing" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/StrWomanTecGeek" target="_blank"><i class="fa fa-twitter-square fa-lg round" aria-hidden="true"></i></a></li>
 
-        <li><a href="https://www.linkedin.com/in/ashley-laing/" target="_blank"><i class="fa fa-linkedin-square fa-lg round" aria-hidden="true"></i></a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="resumeSection">
-    <h2>Ashley Laing</h2>
-    <h3>front end developer</h3>
-    <p>I am a front-end developer with a passion for JavaScript, I have interned with Microsoft and constant learning is the main driver for my personal goals.</p>
-
-    <p>Check out my work on <a href="https://github.com/ashleymlaing">GitHub</a> or connect with me on <a href="https://www.linkedin.com/in/ashley-laing/">Linkedin</a></p>
-  </section>
-  <section class="resumeSection">
-    <h2>Microsoft</h2> <h3>Software Intern</h3>
-    <h4>February 2017 - May 2017</h4>
-    <ul  class="microsoft">
-      <li>Developed a program using C# and XAML</li>
-      <li>Deployed to a Raspberry Pi</li>
-      <li class="hiddenBullet disappear">Hardware Design and Electrical Engineering to fit the projects requirements</li>
-      <li class="hiddenBullet disappear">Connect Database to hold and store information</li>
-    </ul>
-    <button class="microsoft">Read More</button>
-    <h2>Howard Development &amp; Consulting</h2> <h3>Contract Developer</h3>
-    <h4>November 2016 - Present</h4>
-    <ul class="howard">
-      <li>Lead backend edits for Wordpress themes including plugins, migrations, and updates</li>
-      <li>Respond to client tickets with Zendesk ensuring 15 minute response time</li>
-      <li class="hiddenBullet disappear">Work to ensure WordPress became client friendly</li>
-      <li class="hiddenBullet disappear">Preformed monthly security and performance checks on client sites</li>
-    </ul>
-    <button class="howard">Read More</button>
-    <h2>Resilient Coders</h2> <h3>Developer In Residence</h3>
-    <h4>July 2017 - September 2017</h4>
-    <ul class="resilientDev">
-      <li>Teach Bootcamp students Web Development skills HTML, CSS, JavaScript/jQuery</li>
-      <li>Coach students and offering career support</li>
-      <li class="hiddenBullet disappear">Assess students code</li>
-      <li class="hiddenBullet disappear">Motivate students to research and seek more knowledge outside of class</li>
-    </ul>
-    <button class="resilientDev">Read More</button>
-    <h2>Resilient Lab</h2> <h3>Technical Fellow</h3>
-    <h4>September 2016 - February 2017</h4>
-    <ul class="resilientLab">
-      <li>Created websites and web applications for clients in JavaScript, Bootstrap, PHP, and Wordpress</li>
-      <li>Functioned as part of a term in execution and delivery of client work</li>
-      <li class="hiddenBullet disappear">Built WordPress themes, Jekyll themes</li>
-      <li class="hiddenBullet disappear">Worked with appreciation for Progressive Enhancement, following Separation of Concerns and using a responsive design</li>
-    </ul>
-    <button class="resilientLab">Read More</button>
-  </section>
-  <footer>
-    <section>
-      <div class="col-md-6">
+                <li><a href="https://www.linkedin.com/in/ashley-laing/" target="_blank"><i class="fa fa-linkedin-square fa-lg round" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="resumeSection">
         <h2>Ashley Laing</h2>
-        <a href="resume/resume.pdf" class="" target="_blank">See My Resume</a>
-        <a href="contact.html" class="">Get In Contact</a>
-      </div>
-      <div id="portfolio" class="col-md-6">
-        <h2>Portfolio</h2>
-        <ul>
-          <li ng-repeat="project in projects"><a href="{{project.link}}">{{project.projectName}}</a></li>
+        <h3>front end developer</h3>
+        <p>I am a front-end developer with a passion for JavaScript, I have interned with Microsoft and constant learning is the main driver for my personal goals.</p>
+
+        <p>Check out my work on <a href="https://github.com/ashleymlaing">GitHub</a> or connect with me on <a href="https://www.linkedin.com/in/ashley-laing/">Linkedin</a></p>
+    </section>
+    <section class="resumeSection">
+        <h2>Microsoft</h2>
+        <h3>Software Intern</h3>
+        <h4>February 2017 - May 2017</h4>
+        <ul class="microsoft">
+            <li>Workflow restricted access to coffee, users were required to use RFID cards to track consumption which improved inventory by providing data on inventory levels in real-time</li>
+            <li>Using C# and XAML to develop a program that used sensors to control access to a coffee keg also known as kegerator lock</li>
+            <li class="hiddenBullet disappear">Worked in a team of software engineers and designer to Deploy to a Raspberry Pi</li>
+            <li class="hiddenBullet disappear">Researched requirements along with my team to define hardware design and electrical engineering scope</li>
+            <li class="hiddenBullet disappear">Managed version control using Github for deployment to Demo staging server on Microsoft Azure</li>
+            <li class="hiddenBullet disappear">Created scripts to store results to MySQLite including all sensor activity data Developed a program using C# and XAML</li>
         </ul>
-      </div>
+        <button class="microsoft">Read More</button>
+        <h2>Howard Development &amp; Consulting</h2>
+        <h3>Contract Developer</h3>
+        <h4>November 2016 - Present</h4>
+        <ul class="howard">
+            <li>Managed backend edits for WordPress themes including plugins, migrations, and updates</li>
+            <li>Managed client support tickets with Zendesk ensuring 15 minute response time</li>
+            <li class="hiddenBullet disappear">Work to ensure WordPress became client friendly</li>
+            <li class="hiddenBullet disappear">Preformed monthly security and performance checks on client sites</li>
+        </ul>
+        <button class="howard">Read More</button>
+        <h2>Resilient Coders</h2>
+        <h3>Developer In Residence</h3>
+        <h4>July 2017 - September 2017</h4>
+        <ul class="resilientDev">
+            <li>Teached Bootcamp students Web Development skills HTML, CSS, JavaScript/jQuery</li>
+            <li>Mentored and QA students on their coding and project work</li>
+            <li class="hiddenBullet disappear">Motivate students to research and seek more knowledge outside of class</li>
+        </ul>
+        <button class="resilientDev">Read More</button>
+        <h2>Resilient Lab</h2>
+        <h3>Web Developer</h3>
+        <h4>September 2016 - February 2017</h4>
+        <ul class="resilientLab">
+            <li>Created websites and web applications for clients in JavaScript, Bootstrap, PHP, and Wordpress</li>
+            <li>Functioned as part of a term in execution and delivery of client work</li>
+            <li class="hiddenBullet disappear">Built WordPress themes, Jekyll themes</li>
+            <li class="hiddenBullet disappear">Worked with appreciation for Progressive Enhancement, following Separation of Concerns and using a responsive design</li>
+            <li class="hiddenBullet disappear">Worked with team members and project lead following agile and scrum methodologies and related tools</li>
+        </ul>
+        <button class="resilientLab">Read More</button>
     </section>
-    <section>
-      <ul>
-        <li><a href="https://github.com/ashleymlaing" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-        <li><a href="https://twitter.com/StrWomanTecGeek" target="_blank"><i class="fa fa-twitter-square fa-lg round" aria-hidden="true"></i></a></li>
+    <footer>
+        <section>
+            <div class="col-md-6">
+                <h2>Ashley Laing</h2>
+                <a href="resume/resume.pdf" class="" target="_blank">See My Resume</a>
+                <a href="contact.html" class="">Get In Contact</a>
+            </div>
+            <div id="portfolio" class="col-md-6">
+                <h2>Portfolio</h2>
+                <ul>
+                    <li ng-repeat="project in projects"><a href="{{project.link}}">{{project.projectName}}</a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <ul>
+                <li><a href="https://github.com/ashleymlaing" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/StrWomanTecGeek" target="_blank"><i class="fa fa-twitter-square fa-lg round" aria-hidden="true"></i></a></li>
 
-        <li><a href="https://www.linkedin.com/in/ashley-laing/" target="_blank"><i class="fa fa-linkedin-square fa-lg round" aria-hidden="true"></i></a></li>
-      </ul>
-    </section>
-  </footer>
+                <li><a href="https://www.linkedin.com/in/ashley-laing/" target="_blank"><i class="fa fa-linkedin-square fa-lg round" aria-hidden="true"></i></a></li>
+            </ul>
+        </section>
+    </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.min.js"></script>
 
-  <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
-  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script src="js/vendor/bootstrap.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/parallax.js" charset="utf-8"></script>
-  <script src="js/parallax.min.js" charset="utf-8"></script>
-  <script src="js/main.js" charset="utf-8"></script>
+    <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/parallax.js" charset="utf-8"></script>
+    <script src="js/parallax.min.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
 </body>
+
 </html>
