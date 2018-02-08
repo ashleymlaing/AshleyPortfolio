@@ -1,11 +1,20 @@
 .resumeSection{
   width: 50%;
-  height: 900px;
   overflow-y: scroll;
   float: left;
 }
 .resumeSection:first-of-type{
   overflow-y: hidden;
+  background-image: url("../img/ashley.png");
+  background-position: center;
+  height: 500px;
+  border-radius: 50%;
+}
+.resumeSection:first-of-type + .resumeSection{
+  height: 500px;
+}
+.resumeSection:last-of-type{
+  width: 100%;
 }
 .resumeSection:first-of-type > h2, .resumeSection:first-of-type > h3{
   display: block;
