@@ -13,8 +13,27 @@
 .resumeSection:first-of-type + .resumeSection{
   height: 500px;
 }
-.resumeSection:last-of-type{
+.resumeSection:nth-of-type(3){
+  width: 65%;
+  border: 1px solid green;
+}
+.resumeSection:nth-of-type(4){
+  width: 35%;
+  border: 1px solid pink;
+}
+.resumeSection:nth-of-type(4) > h2{
+  display: block;
+}
+.progressLevel{
   width: 100%;
+  height: 30px;
+  border: 1px solid grey;
+  margin: 10px auto;
+}
+.progressLevel > .level95{
+  width: 95%;
+  height: 30px;
+  background-color: purple;
 }
 .resumeSection:first-of-type > h2, .resumeSection:first-of-type > h3{
   display: block;
