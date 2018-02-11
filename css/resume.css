@@ -77,9 +77,9 @@
   display: inline;
   margin-right: 60px;
 }
-.resumeSection h2:nth-of-type(2){
+/* .resumeSection h2:nth-of-type(2){
   display: block;
-}
+} */
 .resumeSection h4{
   font-size: 24px;
   margin-top: 30px;
