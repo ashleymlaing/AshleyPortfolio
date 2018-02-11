@@ -50,6 +50,15 @@
 .progressLevel > .level80{
   width: 80%;
 }
+.progressLevel > .level50{
+  width: 50%;
+}
+.progressLevel > .level20{
+  width: 20%;
+}
+.progressLevel > .level15{
+  width: 15%;
+}
 .resumeSection:first-of-type > h2, .resumeSection:first-of-type > h3{
   display: block;
   width: 100%;
