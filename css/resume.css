@@ -27,6 +27,13 @@
 .resumeSection.skillsBar > h3 {
   color:rgb(196,196,196);
 }
+
+.resumeSection.skillsBar > a{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
 .progressLevel{
   width: 100%;
   height: 30px;
