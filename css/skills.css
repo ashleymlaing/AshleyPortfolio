@@ -1,3 +1,26 @@
-.skill_project_details img{
-  width: 30%;
+.skill_project_details > div{
+  width: 20%;
+  height: 350px;
+  background-color: pink;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.skill_project_details.javascript > div{
+  background-image: url("../img/icons/javascript.png");
+  background-color: inherit;
+}
+.skill_project_details.angular > div {
+  background-image: url("../img/icons/angular.png");
+  background-color: inherit;
+}
+.skill_project_details.java > div {
+  background-image: url("../img/icons/java.png");
+  background-color: inherit;
+  background-size: contain;
+}
+.skill_project_details.ruby > div {
+  background-image: url("../img/icons/ruby_on_rails.png");
+  background-color: inherit;
+  background-size: contain;
 }
